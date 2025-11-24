@@ -1,0 +1,92 @@
+_wandb:
+    value:
+        cli_version: 0.23.0
+        e:
+            zubmnujz60ac3pm9mi65ygfa1tyahr48:
+                args:
+                    - --model-config
+                    - model_config.yaml
+                    - --train-config
+                    - train_config.yaml
+                    - --checkpoint-path
+                    - checkpoints/part1_emb64_hid64.pt
+                codePath: part1/train.py
+                codePathLocal: train.py
+                cpu_count: 1
+                cpu_count_logical: 2
+                cudaVersion: "12.4"
+                disk:
+                    /:
+                        total: "120942624768"
+                        used: "40922120192"
+                email: jemyho1225@gmail.com
+                executable: /usr/bin/python3
+                git:
+                    commit: bb353e2a5120dcc68e4fabc8bb97935ce3dcb113
+                    remote: https://JemyHo:@github.com/JemyHo/cw2_2025_2026-students---Jeremy-Lihang.git
+                gpu: Tesla T4
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-a99e3142-afcf-e8f9-dc6b-eb65217074ab
+                host: e804e87087ee
+                memory:
+                    total: "13605851136"
+                os: Linux-6.6.105+-x86_64-with-glibc2.35
+                program: /content/cw2_2025_2026-students---Jeremy-Lihang/part1/train.py
+                python: CPython 3.12.12
+                root: /content/cw2_2025_2026-students---Jeremy-Lihang/part1
+                startedAt: "2025-11-24T00:01:53.842943Z"
+                writerId: zubmnujz60ac3pm9mi65ygfa1tyahr48
+        m: []
+        python_version: 3.12.12
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+                - 105
+            "2":
+                - 1
+                - 5
+                - 53
+                - 105
+            "3":
+                - 13
+                - 16
+                - 61
+            "4": 3.12.12
+            "5": 0.23.0
+            "12": 0.23.0
+            "13": linux-x86_64
+dev_batch_size:
+    value: 128
+dropout_rate:
+    value: 0.2
+embed_size:
+    value: 64
+hidden_size:
+    value: 64
+log_every:
+    value: 10
+lr:
+    value: 0.001
+lr_decay:
+    value: 0.5
+max_epoch:
+    value: 30
+max_num_trial:
+    value: 5
+patience:
+    value: 1
+seed:
+    value: 0
+train_batch_size:
+    value: 32
+uniform_init:
+    value: 0.1
+valid_niter:
+    value: 2000
